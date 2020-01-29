@@ -22,7 +22,7 @@ html
                 width: 250px;
                 height: 1px;
                 margin: 0 auto;
-                background: #eee;
+                background: #d8d8d8;
                 margin-bottom: 30px;
             }
             .primary {
@@ -41,32 +41,47 @@ html
                 margin: 20px;
                 display: inline-block;
                 text-decoration: none;
+                font-weight: bold;
             }
             .image-one {
                 width: 100%;
             }
             .image-two {
                 width: 100%;
+                margin: 20px 0;
+            }
+            .text {
+                font-size: 1.2em;
+            }
+            .promotion__title {
+                margin-bottom: 15px;
+                margin-top: 50px;
+            }
+            .promotion__text {
+                margin-top: 0;
+            }
+            .bottom {
+                font-size: 0.7em;
             }
     body
         .container
             img(src="https://i.ibb.co/4TNJfK9/Hero-Image-01.jpg").image-one
             h1 Enginuity is back for its 2nd edition!
             .hr
-            p.
+            p.text.
                 GTI Media is proud to announce that Enginuity is back for its second run. Held in partnership with the NUS Engineering club, 
                 it is a platform for NUS Engineering and Information Technology undergraduates and fresh graduates to network with employers, 
                 get to know the industry, build key employability skills and discover potential career paths.
             img(src="https://i.ibb.co/JpxMytH/DSC04019e.jpg").image-two
-            p. 
-                Set to take place on <b>18 March 2020, Wednesday at NUS EA Foyer, 9 Engineering Drive 1, Singapore 117575</b>,
+            p.text. 
+                Set to take place on <br/> <b>18 March 2020, Wednesday at NUS EA Foyer, <br/> 9 Engineering Drive 1, Singapore 117575</b>, <br/>
                 we would like to invite YOU to be part of it!
             .promotion
-                p.primary.
-                    EARLY BIRD PROMOTION <br />
-                    Tie up both your employer branding and event presence with a complimentary branded eDM worth $500!*
+                .primary 
+                    h1.promotion__title EARLY BIRD PROMOTION <br />
+                    h1.promotion__text Tie up both your employer branding and event presence with a complimentary branded eDM worth $500!*
                 p.star *Early bird promotion valid till 31st January 2020
             a(href="https://drive.google.com/file/d/1oz1lZkmooU3jyd1JdscSzv7fJKl3ZEbr/view?usp=sharing").spot-button Secure your spot
-            p.
+            p.bottom.
                 To find out more about Enginuity 2020,
                 give us a call at +65 6294 6505 or drop us an <a href="mailto:sales@gradsingapore.com">email</a> 
